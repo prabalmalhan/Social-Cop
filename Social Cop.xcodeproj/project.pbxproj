@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081921A16A92791CD923F1BA /* Pods_Social_Cop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB602C34FCF20423EF8774D7 /* Pods_Social_Cop.framework */; };
+		D5150F841EF897C4008290AD /* icons8-Traffic Light-100-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D5150F831EF897C4008290AD /* icons8-Traffic Light-100-2.png */; };
 		D533BF7A1EEC3E3A001CBD44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF791EEC3E3A001CBD44 /* AppDelegate.swift */; };
-		D533BF7C1EEC3E3A001CBD44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF7B1EEC3E3A001CBD44 /* ViewController.swift */; };
 		D533BF7F1EEC3E3A001CBD44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D533BF7D1EEC3E3A001CBD44 /* Main.storyboard */; };
 		D533BF821EEC3E3A001CBD44 /* Social_Cop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D533BF801EEC3E3A001CBD44 /* Social_Cop.xcdatamodeld */; };
 		D533BF841EEC3E3A001CBD44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D533BF831EEC3E3A001CBD44 /* Assets.xcassets */; };
 		D533BF871EEC3E3A001CBD44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D533BF851EEC3E3A001CBD44 /* LaunchScreen.storyboard */; };
+		D533BF8F1EEC4134001CBD44 /* ComplaintSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF8E1EEC4134001CBD44 /* ComplaintSelectViewController.swift */; };
+		D533BF911EEC4161001CBD44 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF901EEC4161001CBD44 /* LoginViewController.swift */; };
+		D533BF931EEC41E0001CBD44 /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF921EEC41E0001CBD44 /* CommonFunctions.swift */; };
+		D533BF951EEC8575001CBD44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D533BF941EEC8575001CBD44 /* GoogleService-Info.plist */; };
+		D533BF971EEC8660001CBD44 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF961EEC8660001CBD44 /* Constants.swift */; };
+		D533BF991EECA4EA001CBD44 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF981EECA4EA001CBD44 /* SignupViewController.swift */; };
+		D533BF9B1EECA4F4001CBD44 /* UserActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF9A1EECA4F4001CBD44 /* UserActionsViewController.swift */; };
+		D533BF9D1EECA5AD001CBD44 /* ComplaintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D533BF9C1EECA5AD001CBD44 /* ComplaintsViewController.swift */; };
+		D5F7AF891EEE14E600B22C4D /* CompaintsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F7AF881EEE14E600B22C4D /* CompaintsTableViewCell.swift */; };
+		D5F7AF8B1EEE1EDE00B22C4D /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = D5F7AF8A1EEE1EDE00B22C4D /* Unknown.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91123C95CB747C85BF4B81B3 /* Pods-Social Cop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Cop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social Cop/Pods-Social Cop.debug.xcconfig"; sourceTree = "<group>"; };
+		D5150F831EF897C4008290AD /* icons8-Traffic Light-100-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Traffic Light-100-2.png"; sourceTree = "<group>"; };
 		D533BF761EEC3E39001CBD44 /* Social Cop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Cop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D533BF791EEC3E3A001CBD44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D533BF7B1EEC3E3A001CBD44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D533BF7E1EEC3E3A001CBD44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D533BF811EEC3E3A001CBD44 /* Social_Cop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Social_Cop.xcdatamodel; sourceTree = "<group>"; };
 		D533BF831EEC3E3A001CBD44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D533BF861EEC3E3A001CBD44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D533BF881EEC3E3A001CBD44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D533BF8E1EEC4134001CBD44 /* ComplaintSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplaintSelectViewController.swift; sourceTree = "<group>"; };
+		D533BF901EEC4161001CBD44 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D533BF921EEC41E0001CBD44 /* CommonFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		D533BF941EEC8575001CBD44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D533BF961EEC8660001CBD44 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D533BF981EECA4EA001CBD44 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		D533BF9A1EECA4F4001CBD44 /* UserActionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActionsViewController.swift; sourceTree = "<group>"; };
+		D533BF9C1EECA5AD001CBD44 /* ComplaintsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplaintsViewController.swift; sourceTree = "<group>"; };
+		D5F7AF881EEE14E600B22C4D /* CompaintsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaintsTableViewCell.swift; sourceTree = "<group>"; };
+		D5F7AF8A1EEE1EDE00B22C4D /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unknown.png; sourceTree = "<group>"; };
+		E3204FD918EFE14C17DDBC91 /* Pods-Social Cop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Cop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social Cop/Pods-Social Cop.release.xcconfig"; sourceTree = "<group>"; };
+		FB602C34FCF20423EF8774D7 /* Pods_Social_Cop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_Cop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				081921A16A92791CD923F1BA /* Pods_Social_Cop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48B994A78E244360669DE4B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91123C95CB747C85BF4B81B3 /* Pods-Social Cop.debug.xcconfig */,
+				E3204FD918EFE14C17DDBC91 /* Pods-Social Cop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57417899A1CF8756C6444474 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB602C34FCF20423EF8774D7 /* Pods_Social_Cop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D533BF6D1EEC3E39001CBD44 = {
 			isa = PBXGroup;
 			children = (
 				D533BF781EEC3E39001CBD44 /* Social Cop */,
 				D533BF771EEC3E39001CBD44 /* Products */,
+				48B994A78E244360669DE4B6 /* Pods */,
+				57417899A1CF8756C6444474 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +100,20 @@
 		D533BF781EEC3E39001CBD44 /* Social Cop */ = {
 			isa = PBXGroup;
 			children = (
+				D533BF961EEC8660001CBD44 /* Constants.swift */,
 				D533BF791EEC3E3A001CBD44 /* AppDelegate.swift */,
-				D533BF7B1EEC3E3A001CBD44 /* ViewController.swift */,
+				D533BF921EEC41E0001CBD44 /* CommonFunctions.swift */,
 				D533BF7D1EEC3E3A001CBD44 /* Main.storyboard */,
+				D5F7AF8A1EEE1EDE00B22C4D /* Unknown.png */,
+				D533BF981EECA4EA001CBD44 /* SignupViewController.swift */,
+				D533BF9C1EECA5AD001CBD44 /* ComplaintsViewController.swift */,
+				D5F7AF881EEE14E600B22C4D /* CompaintsTableViewCell.swift */,
+				D533BF9A1EECA4F4001CBD44 /* UserActionsViewController.swift */,
+				D533BF901EEC4161001CBD44 /* LoginViewController.swift */,
+				D533BF941EEC8575001CBD44 /* GoogleService-Info.plist */,
+				D533BF8E1EEC4134001CBD44 /* ComplaintSelectViewController.swift */,
 				D533BF831EEC3E3A001CBD44 /* Assets.xcassets */,
+				D5150F831EF897C4008290AD /* icons8-Traffic Light-100-2.png */,
 				D533BF851EEC3E3A001CBD44 /* LaunchScreen.storyboard */,
 				D533BF881EEC3E3A001CBD44 /* Info.plist */,
 				D533BF801EEC3E3A001CBD44 /* Social_Cop.xcdatamodeld */,
@@ -74,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D533BF8B1EEC3E3A001CBD44 /* Build configuration list for PBXNativeTarget "Social Cop" */;
 			buildPhases = (
+				20F7B74A0B8874EDFA6D5628 /* [CP] Check Pods Manifest.lock */,
 				D533BF721EEC3E39001CBD44 /* Sources */,
 				D533BF731EEC3E39001CBD44 /* Frameworks */,
 				D533BF741EEC3E39001CBD44 /* Resources */,
+				FB4ED5CE18B74F946CE7D07F /* [CP] Embed Pods Frameworks */,
+				7CFE2BC91E73846B078BCA5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,6 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D533BF871EEC3E3A001CBD44 /* LaunchScreen.storyboard in Resources */,
+				D5F7AF8B1EEE1EDE00B22C4D /* Unknown.png in Resources */,
+				D5150F841EF897C4008290AD /* icons8-Traffic Light-100-2.png in Resources */,
+				D533BF951EEC8575001CBD44 /* GoogleService-Info.plist in Resources */,
 				D533BF841EEC3E3A001CBD44 /* Assets.xcassets in Resources */,
 				D533BF7F1EEC3E3A001CBD44 /* Main.storyboard in Resources */,
 			);
@@ -135,14 +195,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20F7B74A0B8874EDFA6D5628 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7CFE2BC91E73846B078BCA5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Social Cop/Pods-Social Cop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB4ED5CE18B74F946CE7D07F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Social Cop/Pods-Social Cop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D533BF721EEC3E39001CBD44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D533BF911EEC4161001CBD44 /* LoginViewController.swift in Sources */,
+				D533BF9B1EECA4F4001CBD44 /* UserActionsViewController.swift in Sources */,
+				D533BF991EECA4EA001CBD44 /* SignupViewController.swift in Sources */,
+				D533BF8F1EEC4134001CBD44 /* ComplaintSelectViewController.swift in Sources */,
+				D533BF9D1EECA5AD001CBD44 /* ComplaintsViewController.swift in Sources */,
+				D533BF931EEC41E0001CBD44 /* CommonFunctions.swift in Sources */,
 				D533BF821EEC3E3A001CBD44 /* Social_Cop.xcdatamodeld in Sources */,
-				D533BF7C1EEC3E3A001CBD44 /* ViewController.swift in Sources */,
 				D533BF7A1EEC3E3A001CBD44 /* AppDelegate.swift in Sources */,
+				D5F7AF891EEE14E600B22C4D /* CompaintsTableViewCell.swift in Sources */,
+				D533BF971EEC8660001CBD44 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +378,7 @@
 		};
 		D533BF8C1EEC3E3A001CBD44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91123C95CB747C85BF4B81B3 /* Pods-Social Cop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K5A6E29AKD;
@@ -276,6 +392,7 @@
 		};
 		D533BF8D1EEC3E3A001CBD44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3204FD918EFE14C17DDBC91 /* Pods-Social Cop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K5A6E29AKD;
@@ -306,6 +423,7 @@
 				D533BF8D1EEC3E3A001CBD44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

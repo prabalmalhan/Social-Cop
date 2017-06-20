@@ -1,3 +1,4 @@
+
 //
 //  AppDelegate.swift
 //  Social Cop
@@ -8,15 +9,27 @@
 
 import UIKit
 import CoreData
+import Firebase
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var savedComplaint:[Dictionary<String, Any>]!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        savedComplaint = []
+        if let arr = UserDefaults.standard.object(forKey: "complaints") as? Array<Any>{
+            for item in arr{
+                savedComplaint.append(item as! [String : Any])
+            }
+        }
+        GMSServices.provideAPIKey("AIzaSyD1Z7FGmMLTh5VXQ5V2o8dAxZCQWZnME_U")
+
+        
         return true
     }
 
