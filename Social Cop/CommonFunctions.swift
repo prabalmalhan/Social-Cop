@@ -40,9 +40,9 @@ class CommonFunctions {
         let paragraphStyle = NSMutableParagraphStyle()
         
         let messageString = inString
-        let attributes : [String : Any] = [NSFontAttributeName : font,
-                                           NSParagraphStyleAttributeName: paragraphStyle,
-                                           NSBaselineOffsetAttributeName: NSNumber(value: 0)
+        let attributes : [NSAttributedStringKey : Any] = [NSAttributedStringKey.font : font,
+                                                          NSAttributedStringKey.paragraphStyle: paragraphStyle,
+                                                          NSAttributedStringKey.baselineOffset: NSNumber(value: 0)
         ]
         
         let attributedString : NSAttributedString = NSAttributedString(string: messageString, attributes: attributes)
@@ -60,8 +60,8 @@ class CommonFunctions {
         
         let attributedString = NSAttributedString(string: string,
                                                   attributes: [
-                                                    NSParagraphStyleAttributeName: paragraphStyle,
-                                                    NSBaselineOffsetAttributeName: NSNumber(value: 0)
+                                                    NSAttributedStringKey.paragraphStyle: paragraphStyle,
+                                                    NSAttributedStringKey.baselineOffset: NSNumber(value: 0)
             ])
         return attributedString
     }
@@ -146,11 +146,11 @@ class CommonFunctions {
     class func attributedString(from string: String, nonBoldRange: NSRange?,fontSize:CGFloat) -> NSAttributedString {
 
         let attrs = [
-            NSFontAttributeName: UIFont.boldSystemFont(ofSize: fontSize),
-            NSForegroundColorAttributeName: UIColor.black
+            NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: fontSize),
+            NSAttributedStringKey.foregroundColor: UIColor.black
         ]
         let nonBoldAttribute = [
-            NSFontAttributeName: UIFont.systemFont(ofSize: fontSize),
+            NSAttributedStringKey.font: UIFont.systemFont(ofSize: fontSize),
             ]
         let attrStr = NSMutableAttributedString(string: string, attributes: attrs)
         if let range = nonBoldRange {

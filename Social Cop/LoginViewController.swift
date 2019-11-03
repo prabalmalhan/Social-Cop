@@ -62,7 +62,7 @@ class LoginViewController: UIViewController {
         questionLabel.text = "Who are you?"
         questionLabel.textColor = CommonFunctions.hexStringToUIColor(hex: green1)
         questionLabel.textAlignment = .center
-        questionLabel.font = UIFont.systemFont(ofSize: 16, weight: UIFontWeightMedium)
+        questionLabel.font = UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.medium)
         self.welcomeView.addSubview(questionLabel)
         
         departmentButton = UIButton()
@@ -71,7 +71,7 @@ class LoginViewController: UIViewController {
         departmentButton.clipsToBounds = true
         departmentButton.backgroundColor = CommonFunctions.hexStringToUIColor(hex: teal)
         departmentButton.addTarget(self, action: #selector(buttonAction(sender:)), for: .touchUpInside)
-        departmentButton.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: UIFontWeightMedium)
+        departmentButton.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.medium)
         departmentButton.setTitleColor(.white, for: .normal)
         self.welcomeView.addSubview(departmentButton)
         
@@ -81,7 +81,7 @@ class LoginViewController: UIViewController {
         userButton.clipsToBounds = true
         userButton.backgroundColor = CommonFunctions.hexStringToUIColor(hex: teal)
         userButton.addTarget(self, action: #selector(buttonAction(sender:)), for: .touchUpInside)
-        userButton.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: UIFontWeightMedium)
+        userButton.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.medium)
         userButton.setTitleColor(.white, for: .normal)
         self.welcomeView.addSubview(userButton)
     
@@ -89,7 +89,7 @@ class LoginViewController: UIViewController {
         self.view.addSubview(welcomeView)
         
     }
-    func buttonAction(sender:UIButton){
+    @objc func buttonAction(sender:UIButton){
         if sender.titleLabel?.text == "Public User"{
             performSegue(withIdentifier: userScreen, sender: self)
             return

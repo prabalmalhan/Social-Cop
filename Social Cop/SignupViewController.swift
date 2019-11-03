@@ -57,12 +57,12 @@ class SignupViewController: UIViewController {
         submitButton.clipsToBounds = true
         submitButton.backgroundColor = CommonFunctions.hexStringToUIColor(hex: teal)
         submitButton.addTarget(self, action: #selector(submit(sender:)), for: .touchUpInside)
-        submitButton.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: UIFontWeightMedium)
+        submitButton.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.medium)
         submitButton.setTitleColor(.white, for: .normal)
         
         self.view.addSubview(submitButton)
     }
-    func submit(sender:UIButton){
+    @objc func submit(sender:UIButton){
         self.view.endEditing(true)
         let alert = UIAlertController(title: "Error", message: "Please fill all the fields", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))

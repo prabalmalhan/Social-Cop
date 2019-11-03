@@ -156,7 +156,7 @@
 				TargetAttributes = {
 					D533BF751EEC3E39001CBD44 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = K5A6E29AKD;
+						DevelopmentTeam = Z3BGLCCPGN;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -166,6 +166,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -381,12 +382,12 @@
 			baseConfigurationReference = 91123C95CB747C85BF4B81B3 /* Pods-Social Cop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K5A6E29AKD;
+				DEVELOPMENT_TEAM = Z3BGLCCPGN;
 				INFOPLIST_FILE = "Social Cop/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.prabalmalhan.Social-Cop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -395,12 +396,12 @@
 			baseConfigurationReference = E3204FD918EFE14C17DDBC91 /* Pods-Social Cop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K5A6E29AKD;
+				DEVELOPMENT_TEAM = Z3BGLCCPGN;
 				INFOPLIST_FILE = "Social Cop/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.prabalmalhan.Social-Cop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
