@@ -60,7 +60,7 @@ class UserActionsViewController: UIViewController, UINavigationControllerDelegat
         signalNotWorkingButton.clipsToBounds = true
         signalNotWorkingButton.backgroundColor = CommonFunctions.hexStringToUIColor(hex: teal)
         signalNotWorkingButton.addTarget(self, action: #selector(buttonAction(sender:)), for: .touchUpInside)
-        signalNotWorkingButton.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: UIFontWeightMedium)
+        signalNotWorkingButton.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.medium)
         signalNotWorkingButton.setTitleColor(.white, for: .normal)
         self.view.addSubview(signalNotWorkingButton)
         
@@ -70,7 +70,7 @@ class UserActionsViewController: UIViewController, UINavigationControllerDelegat
         illegalParkingButton.clipsToBounds = true
         illegalParkingButton.backgroundColor = CommonFunctions.hexStringToUIColor(hex: teal)
         illegalParkingButton.addTarget(self, action: #selector(buttonAction(sender:)), for: .touchUpInside)
-        illegalParkingButton.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: UIFontWeightMedium)
+        illegalParkingButton.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.medium)
         illegalParkingButton.setTitleColor(.white, for: .normal)
         self.view.addSubview(illegalParkingButton)
         
@@ -97,7 +97,7 @@ class UserActionsViewController: UIViewController, UINavigationControllerDelegat
         submitButton.clipsToBounds = true
         submitButton.backgroundColor = CommonFunctions.hexStringToUIColor(hex: teal)
         submitButton.addTarget(self, action: #selector(buttonAction(sender:)), for: .touchUpInside)
-        submitButton.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: UIFontWeightMedium)
+        submitButton.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.medium)
         submitButton.setTitleColor(.white, for: .normal)
         
         let coordinates = self.locValue
@@ -111,7 +111,7 @@ class UserActionsViewController: UIViewController, UINavigationControllerDelegat
         
         self.view.addSubview(submitButton)
     }
-    func buttonAction(sender:UIButton){
+    @objc func buttonAction(sender:UIButton){
         if sender.titleLabel?.text == "Submit"{
             if selectedImageView.image != nil && !(locationTextField.text?.isEmpty)!{
                 let visualView = UIView(frame: CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight))
